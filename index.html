@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="reset.css">
+		
+		<title>Decodificador</title>
+	</head>
+
+	<body>
+		<header>
+			<img class="imagem" src="imagen.png">
+		</header>
+		<main>
+			<section>
+				<textarea class="area-texto" cols="41" rows="4" placeholder="digite seu texto"></textarea>
+				<div class="informaçao"> 
+					<h6>usuario so pode digitar letras minusculas e sem acento.</h6>	
+				</div>
+				<div class="botoes">
+					<button class="btn-encriptar" onclick="btnEncriptar()">criptografar</button>
+					<button class="btn-desencriptar" onclick="btnDesencriptar()">descriptografar</button>
+				</div>
+			</section>
+			<section>
+				<textarea id="mensagem" cols="20" rows="10"></textarea>
+				<button class="btn-copiar" onclick="copiar()">copiar</button>
+			</section>
+		</main>
+		<footer class="rodapé">
+			<div class="icons">
+				<a href="https://www.linkedin.com/in/marcos-valentin-/"><ion-icon name="logo-linkedin"></ion-icon>
+				<a href="https://github.com/marcosvalentin?tab=repositories"><ion-icon name="logo-github"></ion-icon>
+
+					
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
